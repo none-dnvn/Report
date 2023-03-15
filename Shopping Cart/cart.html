@@ -1,0 +1,188 @@
+	<!DOCTYPE html>
+	<html lang ="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Responsive Practice Website</title>
+		<link rel="stylesheet" type="text/css" href="cart.css">
+
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+		<link rel="stylesheet"
+	href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+	</head>
+	<body>
+
+		<!----header section design---->
+		<header>
+			<a href="#" class="logo"><img src="img/logo.svg"></a>
+
+			<ul class="navbar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Pages</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+			<div class="icons">
+				<a href="#"><i class="ri-search-line"></i></a>
+				<a href="#"><i class="ri-user-line"></i></a>
+				<a href="#"><i class="active = ri-shopping-cart-line"></i></a>
+				<div class="bx bx-menu" id="menu-icon"></div>
+			</div>
+		</header>
+
+		<!----home section design---->
+		<section id="blog-shopping cart" class="pt-5 mt-5 container">
+			<h2 class="font-weight-bold pt-5">Shopping Cart</h2>
+			<hr>
+		</section>
+
+		<!--shopping cart-->
+		<section id="cart-container" class="container my-5">
+			<table width="100%">
+				<thead>
+					<tr>
+						<td>Remove</td>
+						<td>Image</td>
+						<td>Product</td>
+						<td>Price</td>
+						<td>Quantity</td>
+						<td>Total</td>
+					</tr>
+				</thead>
+
+				<tbody>
+					<!--product 1-->
+					<tr class="row_">
+						<td><button class="rm_"><i class='fas fa-trash-alt'></i></button></td>
+						<td><img src="img/p1.webp" alt=""></td>
+						<td>
+							<h5>T-shirt</h5>
+						</td>
+						<td><p class="price_">$28</p>
+						</td>
+						<td><input class="w-25 pl-1" min="1" max="100" value="1" type="number"></td>
+						<td>
+							<p class="total_" type="number">$28</p></td>
+					</tr>
+					<!--product 2-->
+					<tr class="row_">
+						<td><button class="rm_"><i class='fas fa-trash-alt'></i></button></td>
+						<td><img src="img/p2.webp" alt=""></td>
+						<td>
+							<h5>Dress</h5>
+						</td>
+						<td><p class="price_">$91</p>
+						</td>
+						<td><input class="w-25 pl-1" min="1" max="100" value="1" type="number"></td>
+						<td>
+							<p class="total_" type="number">$91</p></td>
+					</tr>
+					<!--product 3-->
+					<tr class="row_">
+						<td><button class="rm_"><i class='fas fa-trash-alt'></i></button></td>
+						<td><img src="img/p3.webp" alt=""></td>
+						<td>
+							<h5>Jeans Shirt</h5>
+						</td>
+						<td><p class="price_">$79</p>
+						</td>
+						<td><input class="w-25 pl-1" min="1" max="100" value="1" type="number"></td>
+						<td>
+							<p class="total_" type="number">$79</p></td>
+					</tr>
+					<!--product 4-->
+					<tr class="row_">
+						<td><button class="rm_"><i class='fas fa-trash-alt'></i></button></td>
+						<td><img src="img/p4.webp" alt=""></td>
+						<td>
+							<h5>Cap</h5>
+						</td>
+						<td><p class="price_">$39</p>
+						</td>
+						<td><input class="w-25 pl-1" min="1" max="100" value="1" type="number"></td>
+						<td>
+							<p class="total_" type="number">$39</p></td>
+					</tr>
+				</tbody>
+			</table>
+		</section> 
+
+		<section id="cart-bottom" class="container">
+			<div class="row"> 
+				<div class="total col-lg-6 col-md-6 col-12">
+					<div>
+						<button class="ml-auto">Calculate Total Payable</button>
+
+						<h5>CART TOTAL</h5>
+						<div class="d-flex justify-content-between">
+							<h6>Subtotal</h6>
+							<p id="subTotal_">$0</p>
+						</div>
+						<div class="d-flex justify-content-between">
+							<h6>Shipping</h6>
+							<p id="shipping_">$0</p>
+						</div>
+						<hr class="second-hr">
+						<div class="d-flex justify-content-between">
+							<h6>Total</h6>
+							<p id="total_cha">$0</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!----contact section design---->
+		<section class="contact">
+			<div class="main-contact">
+				<div class="contact-content">
+					<h5>Getting started</h5>
+					<li><a href="#">Release Notes</a></li>
+					<li><a href="#">Upgrade Guide</a></li>
+					<li><a href="#">Browser Support</a></li>
+					<li><a href="#">Dark Mode</a></li>
+				</div>
+
+				<div class="contact-content">
+					<h5>Explore</h5>
+					<li><a href="#">Prototyping</a></li>
+					<li><a href="#">Design systems</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Security</a></li>
+				</div>
+
+				<div class="contact-content">
+					<h5>Resources</h5>
+					<li><a href="#">Best practices</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">Developers</a></li>
+					<li><a href="#">Learn design</a></li>
+				</div>
+
+				<div class="contact-content">
+					<h5>Community</h5>
+					<li><a href="#">Discussion Forums</a></li>
+					<li><a href="#">Code of Conduct</a></li>
+					<li><a href="#">Contributing</a></li>
+					<li><a href="#">API Reference</a></li>
+				</div>
+
+			</div>
+		</section>
+
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<!---custom js link--->
+		<script type="text/javascript" src="../js/shoppingcart.js"></script>
+
+	</body>
+	</html>

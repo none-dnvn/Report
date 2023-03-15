@@ -1,0 +1,51 @@
+[   
+    {
+        "name": "Sweater",
+        "image": "../img/d1.png",
+        "price": "$40",
+        "describe": "Give the gift <br> of choice",
+        "id": "1"
+    },
+    {
+        "name": "Toy",
+        "image": "../img/d2.png",
+        "price": "$81",
+        "describe": "Give the gift <br> of choice",
+        "id": "2"
+    },
+    {
+        "name": "Bag",
+        "image": "../img/d3.png",
+        "price": "$37",
+        "describe": "Give the gift <br> of choice",
+        "id": "3"
+    },
+    {
+        "name": "T-shirt",
+        "image": "../img/p1.webp",
+        "price": "$28",
+        "describe": "New Design 2023",
+        "id": "4"
+    },
+    {
+        "name": "Dress",
+        "image": "../img/p2.webp",
+        "price": "$91",
+        "describe": "New Design 2023",
+        "id": "5"
+    },
+    {
+        "name": "Jeans shirt",
+        "image": "../img/p3.webp",
+        "price": "$79",
+        "describe": "New Design 2023",
+        "id": "6"
+    },
+    {
+        "name": "Cap",
+        "image": "../img/p4.webp",
+        "price": "$39",
+        "describe": "New Design 2023",
+        "id": "7"
+    }
+]

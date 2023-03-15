@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Practice Website</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!----header section design---->
+	<header>
+		<a href="#" class="logo"><img src="./img/logo.svg"></a>
+
+		<ul class="navbar">
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">Pages</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+
+		<div class="icons">
+			<a href="#"><i class="ri-search-line"></i></a>
+			<a href="#"><i class="ri-user-line"></i></a>
+			<a href="#"><i class="ri-shopping-cart-line"></i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+	<!-- home -->
+	<section class="product">
+			<div class="product-content row">
+				<img src="" alt="None" id="img_">
+			
+
+			<div class="product-content-right">
+				<div class="product-right-name">
+					<h1 id="name_"></h1>
+				</div>
+				<div class="product-price">
+					<p id="price_"></p>
+				</div>
+				<div class="product-size">
+					<p style="font-size: blod;">Size</p>
+					<div class="size">
+						<span>S</span>
+						<span>M</span>
+						<span>L</span>
+						<span>XL</span>
+						<span>XXL</span>
+					</div>
+				</div>
+				<div class="quantity">
+					<p style="font-weight: bold;">Quantyti</p>
+					<input type="number" min="0" max="100" value="1" id="quantity_">
+					
+				</div>
+				
+				<div class="product-button">
+					<button><i class="fa-solid fa-cart-shopping"></i>
+						<p class="buy__">Buy</p>
+					</button>
+				</div>
+				</div>
+			</div>
+	</section>
+
+
+
+	<!-- end -->
+	<section class="contact">
+		<div class="main-contact">
+			<div class="contact-content">
+				<h5>Getting started</h5>
+				<li><a href="#">Release Notes</a></li>
+				<li><a href="#">Upgrade Guide</a></li>
+				<li><a href="#">Browser Support</a></li>
+				<li><a href="#">Dark Mode</a></li>
+			</div>
+
+			<div class="contact-content">
+				<h5>Explore</h5>
+				<li><a href="#">Prototyping</a></li>
+				<li><a href="#">Design systems</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Security</a></li>
+			</div>
+
+			<div class="contact-content">
+				<h5>Resources</h5>
+				<li><a href="#">Best practices</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Learn design</a></li>
+			</div>
+
+			<div class="contact-content">
+                <h5>Community</h5>
+				<li><a href="#">Discussion Forums</a></li>
+				<li><a href="#">Code of Conduct</a></li>
+				<li><a href="#">Contributing</a></li>
+				<li><a href="#">API Reference</a></li>
+			</div>
+
+		</div>
+	</section>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<!---custom js link--->
+	<script type="module" src="./js/product.js"></script>
+
+
+</body>
+</html>
